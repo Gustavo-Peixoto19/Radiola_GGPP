@@ -343,3 +343,95 @@ gap: 10px;
 }
 
 /* -- Bloco D: Gabriel Perrucho -- */
+
+.faixa{
+ display: flex;
+ align-items: center;
+ gap: 12px;
+}
+
+.faixa-capa{
+ flex-shrink: 0;
+}
+
+.faixa-tit{
+ min-width: 0;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ flex: 1;
+}
+
+.faixa-n{
+ order: 1;
+}
+
+/* -- Bloco E: Gustavo Peixoto -- */
+
+.palco-cab{
+ display: flex;
+ align-items: baseline;
+ gap: 10px;
+}
+
+.palcos{
+ display: flex;
+ flex-flow: row wrap;
+ gap: 16px;
+}
+
+.palco{
+ display: flex;
+ flex-direction: column;
+ flex: 1 1 220px;
+}
+
+/* -- Bloco F: Gabriel Perrucho -- */
+
+.player{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 12px 20px;
+}
+
+.player-agora{
+display: flex;
+align-items: center;
+gap: 12px;
+flex: 0 1 300px;
+min-width: 0;
+}
+
+.player-capa{
+flex-shrink: 0;
+}
+
+.player-txt{
+display: flex;
+flex-direction: column;
+min-width: 0;
+}
+
+.player-eq{
+flex-shrink: 0;
+}
+
+.player-controles{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 6px;
+}
+
+.player-tempo{
+display: flex;
+align-items: center;
+gap: 10px;
+flex: 1;
+}
+
+.barra{
+flex: 1;
+}
+
+
